@@ -1,13 +1,13 @@
-# # decimal to binary
+# decimal to binary
 
-# a=int(input('enter the decimal number: '))
-# d=a
-# c=''
-# while a>0:
-#     b=a%2
-#     c+=str(b)
-#     a//=2
-# print('the binary number of {} is {}'.format(d,c[-1::-1]))
+a=int(input('enter the decimal number: '))
+d=a
+c=''
+while a>0:
+    b=a%2
+    c+=str(b)
+    a//=2
+print('the binary number of {} is {}'.format(d,c[-1::-1]))
 
 
 
